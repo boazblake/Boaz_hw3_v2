@@ -14,7 +14,7 @@
 
 	/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<TAGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 }
-input{
+input, textarea{
 	border: 1px solid white;
 	font-size: 100%
 
@@ -34,7 +34,7 @@ input.small{
 
 input.big{
 	/*background-color: blue;*/
-	height: 100px;
+	/*height: 100px;*/
 
 }
 
@@ -89,8 +89,15 @@ input[id^="_box"]{
 	padding: 10%;
 }
 
-.input-group input {
+.input-group input,
+.input-group textarea{
 	background-color: rgba(0, 0, 0, 0);
 	margin-top:10px;
 	padding: 10px 5px 10px 5px;
+	font: inherit;
+}
+
+.input-group textarea{
+	width: 90%;
+	height: 200px;
 }
