@@ -52,38 +52,21 @@ input[id^="_box"]{
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<columnS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.partOne{
+/**/
+
+.columns{
 	background-color: #5BA3D6;
 	width: 30%;
 	display: inline-block;
 	height: 1000px;	
 	min-width: 200px;
+	@media screen and (min-width: 480px)
 }
 
-
-.partTwo{
-	background-color: #5BA3D6;
-	width: 30%;
-	display: inline-block;
-	height: 1000px;
-	padding-left: 2%;
-	min-width: 200px;
-}
-
-
-.partThree{
-	background-color: #5BA3D6;
-	width: 30%;
-	display: inline-block;
-	height: 1000px;
-	padding-left: 2%
-	min-width: 200px;
-}
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<INPUTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .input-group, .input-group-options {
 	background-color: #5BA3D6;
-	height: 100px;
 	width: 90%;
 	padding: 15% 5% 15% 5%;
 }
