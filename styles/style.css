@@ -102,5 +102,5 @@ input[id^="_box"]{
 }
 
 .input-group select{
-	width: 90%;
+	width: 100%;
 }
