@@ -22,7 +22,7 @@ body {
 
 }
 input, textarea{
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	font-size: 100%;
 	color: white;
 
@@ -34,9 +34,10 @@ div{
 
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SPECIAL>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-input:focus, textarea:focus, option:focus{
+.input-group input:focus,
+.input-group textarea:focus, .input-group select:focus{
 	outline: none;
-	border: 2px solid #468ABA;
+	border: 2px solid #468ABA
 }
 
 /*input[id^="_box"]{
@@ -50,7 +51,6 @@ input:focus, textarea:focus, option:focus{
 	background-color: #5BA3D6;
 	width: 30%;
 	display: inline-block;
-	height: 1000px;	
 	min-width: 200px;
 	@media screen and (min-width: 480px)
 }
