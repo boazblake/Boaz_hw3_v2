@@ -12,6 +12,45 @@
 	/*transition:0.5s all ease;*/
 
 
+	/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<TAGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+}
+input{
+	border: 1px solid white;
+	font-size: 100%
+
+
+}
+div{
+	display: inline-block;
+}
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CLASSES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+input.small{
+/*background-color: yellow;*/
+
+}
+
+input.big{
+	/*background-color: blue;*/
+	height: 100px;
+
+}
+
+input.options{
+	/*background-color: green;*/
+
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SPECIAL>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+input:focus{
+	outline: none;
+	border:2px solid #468ABA;
+}
+
+input[id^="_box"]{
+	background-color: #5BA3D6;
+}
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<columnS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 .partOne{
@@ -54,46 +93,4 @@
 	background-color: rgba(0, 0, 0, 0);
 	margin-top:10px;
 	padding: 10px 5px 10px 5px;
-}
-
-
-	/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<TAGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-}
-input{
-	border: 1px solid white;
-	font-size: 100%
-
-
-}
-div{
-	display: inline-block;
-}
-
-
-
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CLASSES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
-input.small{
-/*background-color: yellow;*/
-
-}
-
-input.big{
-	/*background-color: blue;*/
-	height: 100px;
-
-}
-
-input.options{
-	/*background-color: green;*/
-
-}
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<SPECIAL>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-input:focus{
-	outline: none;
-	border:2px solid #468ABA;
-}
-
-input[id^="_box"]{
-	background-color: #5BA3D6;
 }
