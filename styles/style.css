@@ -1,0 +1,168 @@
+*{
+	/*font-size: 0;*/
+	font-family: sans-serif;
+	box-sizing: border-box;
+	/*border: 1px solid white;*/
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	transitions:0.5s all ease;
+}
+input{
+	border: 1px solid white;
+}
+
+input.small{
+	margin: -40% 0 0 0;
+
+}
+
+input.Big{
+
+}
+
+input.options{
+
+}
+
+.partOne{
+	background-color: blue;
+	width: 30%;
+	display: inline-block;
+	height: 1000px;
+	padding-left: 2%
+}
+
+
+#firstName{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#firstNameBox:hover{
+	background-color: yellow;
+	
+}
+
+#lastName{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#email{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#country{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#bio{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+
+
+.partTwo{
+	background-color: red;
+	width: 30%;
+	display: inline-block;
+	height: 1000px;
+	padding-left: 2%;
+}
+
+
+
+#phone{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#affiliations{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#occupation{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#catName{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#gadget{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+
+
+.partThree{
+	background-color: green;
+	width: 30%;
+	display: inline-block;
+	height: 1000px;
+	padding-left: 2%
+}
+
+#talent{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#drink{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#powers{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#weapon{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
+
+#comments{
+	background-color: black;
+	height: 20%;
+	width: 90%;
+	padding: 10% 10% 10% 10%;
+}
