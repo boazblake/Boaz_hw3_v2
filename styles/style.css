@@ -12,6 +12,51 @@
 	/*transition:0.5s all ease;*/
 
 
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<columnS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.partOne{
+	background-color: #5BA3D6;
+	width: 30%;
+	display: inline-block;
+	height: 1000px;	
+	min-width: 200px;
+}
+
+
+.partTwo{
+	background-color: #5BA3D6;
+	width: 30%;
+	display: inline-block;
+	height: 1000px;
+	padding-left: 2%;
+	min-width: 200px;
+}
+
+
+.partThree{
+	background-color: #5BA3D6;
+	width: 30%;
+	display: inline-block;
+	height: 1000px;
+	padding-left: 2%
+	min-width: 200px;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<INPUTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.input-group {
+	background-color: #5BA3D6;
+	height: 20%;
+	width: 90%;
+	padding: 10%;
+}
+
+.input-group input {
+	background-color: rgba(0, 0, 0, 0);
+	margin-top:10px;
+	padding: 10px 5px 10px 5px;
+}
+
+
 	/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<TAGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 }
 input{
@@ -23,6 +68,7 @@ input{
 div{
 	display: inline-block;
 }
+
 
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CLASSES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -50,143 +96,4 @@ input:focus{
 
 input[id^="_box"]{
 	background-color: #5BA3D6;
-}
-
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<column 1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.partOne{
-	background-color: #5BA3D6;
-	width: 30%;
-	display: inline-block;
-	height: 1000px;	
-	min-width: 200px;
-}
-
-#firstName{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-
-#lastName{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#email{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#country{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#bio{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<column 2>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
-.partTwo{
-	background-color: #5BA3D6;
-	width: 30%;
-	display: inline-block;
-	height: 1000px;
-	padding-left: 2%;
-	min-width: 200px;
-}
-
-
-
-#phone{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#affiliations{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#occupation{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#catName{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#gadget{
-	background-color: #5BA3D6;
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<column 3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
-.partThree{
-	background-color: #5BA3D6;
-	width: 30%;
-	display: inline-block;
-	height: 1000px;
-	padding-left: 2%
-	min-width: 200px;
-}
-
-#talent{
-	/*background-color: black;*/
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#drink{
-	/*background-color: black;*/
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#powers{
-	/*background-color: black;*/
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#weapon{
-	/*background-color: black;*/
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
-}
-
-#comments{
-	/*background-color: black;*/
-	height: 20%;
-	width: 90%;
-	padding: 10% 10% 10% 10%;
 }
