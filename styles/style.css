@@ -82,9 +82,9 @@ input[id^="_box"]{
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<INPUTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-.input-group {
+.input-group, .input-group-options {
 	background-color: #5BA3D6;
-	height: 20%;
+	height: 100px;
 	width: 90%;
 	padding: 10%;
 }
@@ -98,6 +98,10 @@ input[id^="_box"]{
 }
 
 .input-group textarea{
-	width: 90%;
+	width: 100%;
 	height: 200px;
 }
+
+/*.input-group-options{
+	width: 90%;
+}*/
