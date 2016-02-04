@@ -98,6 +98,9 @@ input[id^="_box"]{
 }
 
 .input-group textarea{
+	height: 100px;
+}
+
+.input-group select{
 	width: 90%;
-	height: 200px;
 }
